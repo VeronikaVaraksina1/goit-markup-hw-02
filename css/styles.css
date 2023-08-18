@@ -25,16 +25,20 @@
 .logo-icon,
 .logo-icon-footer {
   font-family: 'Raleway', sans-serif;
-  color: var(--primary-text-color-navyblue);
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .logo-span {
-  color: #4d5ae5;
+  color: var(--primary-text-color-navyblue);
+}
+
+.contacts-list {
+  font-style: normal;
 }
 
 .nav-link {
@@ -75,7 +79,11 @@
   color: inherit;
   cursor: pointer;
   font-size: 16px;
+  font-weight: 500;
   background-color: #4d5ae5;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--accent-text-color);
 }
 
 .order-button:hover,
@@ -109,8 +117,8 @@
 .text-portfolio,
 .text-footer {
   font-size: 16px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .section-three {
@@ -126,6 +134,7 @@
 }
 
 .logo-icon-footer,
-.text-footer {
+.text-footer,
+.logo-span-footer {
   color: #f4f4fd;
 }
