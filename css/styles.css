@@ -4,7 +4,7 @@
   --accent-text-color: #ffffff;
 }
 
-.page-body {
+body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--accent-text-color);
   color: var(--secondary-text-color-slate);
